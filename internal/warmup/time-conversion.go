@@ -12,9 +12,9 @@ import (
 
 //https://www.hackerrank.com/challenges/time-conversion/problem
 
-func TimeConversion (s string) string {
+func TimeConversion(s string) string {
 	layout := "03:04:05PM"
-	result,_ := time.Parse(layout,s)
+	result, _ := time.Parse(layout, s)
 
-	return fmt.Sprintf("%s",result.Format("15:04:05"))
+	return fmt.Sprintf("%s", result.Format("15:04:05"))
 }

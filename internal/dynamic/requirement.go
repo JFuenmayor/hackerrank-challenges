@@ -12,7 +12,7 @@ package dynamic
 
 //https://www.hackerrank.com/challenges/requirement/problem
 
-func Requirement (n int32, req [][]int32)int32{
+func Requirement(n int32, req [][]int32) int32 {
 
 	return 32
 }

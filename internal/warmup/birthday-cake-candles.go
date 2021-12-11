@@ -14,7 +14,7 @@ func BirthdayCakeCandles(candles []int32) int32 {
 	max := candles[0]
 	frequency := int32(0)
 	for _, v := range candles {
-		if v > max{
+		if v > max {
 			max = v
 			frequency = 0
 		}
